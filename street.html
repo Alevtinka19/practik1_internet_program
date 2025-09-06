@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1> Камеры наблюдения в городе</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="list1.html">Главная</a></li>
+            <li><a href="history.html">История создания</a></li>
+            <li><a href="spisok.html">Список мест</a></li>
+            <li><a href="forma.html">Форма обратной связи</a></li>
+            <li><a href="street.html">Предложить улицу</a></li>
+        </ul>
+    </nav>
+    <info class="form">
+        <h2>Форма для добавления нового места</h2>
+        <p>Здесь вы можете заполнить все необходимые поля, чтобы предложить добавить новое место</p>
+        <form>
+            <label id="NamePlace">Название места</label>
+            <input id="NamePlace" name="NamePlace" type="text" placeholder="Введите навзание места" /> <br />
+            <label id="adres">Адрес места</label>
+            <input id="adres" name="adres" type="text" placeholder="Введите адрес места" /> <br />
+            <label id="opi">Краткое описание места</label><br />
+            <textarea id="opi" name="opisanie" cols="40" rows="6" placeholder="Опишите место"></textarea> <br />
+            <label id="prichina"> Почему это место нужно добавить? </label><br />
+            <textarea id="prichina" name="prichina" cols="40" rows="6" placeholder="Опишите причину"></textarea> <br />
+            <label id="problem">Фотография места</label>
+            <input id="problem" name="foto" type="file" /> <br />
+        </form>
+    </info>
+    <footer>
+        <h1> Контактная информация</h1>
+        <p>Номер для обратной связи: 8 (888) 888-88-88</p>
+        <p>Если возникли неисправности в работе сайта перейдите <a href="forma.html"> по данной ссылке</a> для заполнения формы обратной связи</p>
+    </footer>
+</body>
+</html>

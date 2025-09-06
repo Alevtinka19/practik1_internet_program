@@ -1,0 +1,114 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    grid-template-rows: auto 1fr auto;
+}
+header {
+    background-color: brown;
+    text-align: center;
+    padding: 25px;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+    
+nav {
+    float: left;
+    width: 30%;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 2px solid brown;
+    font-size: 20px;
+    color: blanchedalmond;
+    }
+nav a:hover {
+    color: crimson;
+}
+nav ul {
+    list-style-type: circle;
+    padding: 3px;
+    color: blanchedalmond;
+    }
+nav a{
+    color:brown;
+}
+info {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    background-color: blanchedalmond;
+    border: 2px solid brown;
+    font-size: 20px;
+    text-indent: 10px;
+}
+info ul {
+    list-style-type: circle;
+    padding: 3px;
+    color: black;
+    text-indent: 0px;
+ }
+
+
+footer {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+    color: blanchedalmond;
+    font-size: 13px;
+}
+button {
+    border: 2px solid brown;
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 20px;
+    font-size: 10px
+}
+button:hover{
+    background-color: darkred;
+}
+table, td, th {
+    background-color: blanchedalmond;
+    border: 2px solid brown;
+    color: brown;
+}
+.tableImg {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+}
+.Img {
+    height: 400px;
+    width: 500px;
+    border: 2px solid brown;
+}
+.block {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: brown;
+    border: 2px solid brown;
+    width: 100%;
+}
+.form {
+    border: 2px solid blanchedalmond;
+    text-indent: 0px;
+    background-color: brown;
+    color: blanchedalmond;
+}
+.form input {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width:100%;
+    background-color: blanchedalmond;
+    color: black;
+}
+.form label {
+    
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.form textarea{
+    background-color:blanchedalmond;
+    color:black;
+}
